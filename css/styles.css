@@ -1,0 +1,181 @@
+body{
+  font-family: 'Montserrat' ,sans-serif;
+}
+h1{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  padding-bottom: 20px;
+}
+h2{
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.5;
+
+  }
+h3{
+  font-size: 1.5rem;
+  font-weight: 600;
+ }
+p{
+  color: #8f8f8f;
+}
+
+.whitetxt {
+  color: #ffff;
+}
+.blacktxt{
+  color: #000;
+}
+
+/* navbar */
+
+.navbar-brand{
+  text-transform: lowercase;
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar{
+  padding-bottom: 4.5rem;
+  }
+.collapse{
+  position: absolute;
+  right: 5rem;
+}
+.nav-item{
+  font-weight: 200;
+  padding-right: 20px;
+}
+
+
+/* Title */
+
+#title{
+  background-color: #ff4c68;
+ }
+#title .container-fluid{
+  padding-top: 20px
+}
+
+.container-fluid{
+  padding: 5% 15%;
+}
+.download-button{
+  margin-left: 5px;
+  margin-top: 20px;
+}
+.title-image{
+  width: 300px;
+  transform: rotate(25deg);
+  margin-left: 80px;
+  position: absolute;
+  right: 300px;
+  top: 200px;
+}
+
+/* features */
+
+#features{
+  text-align: center;
+  margin-bottom: 30px;
+  background-color: #ffff;
+  position: relative;
+  z-index: 1;
+}
+.feature-icon{
+  color: #ef8172;
+  font-size: 2rem;
+  padding-bottom: 5%;
+}
+.feature-icon:hover {
+  color: #ff4c68;
+}
+.feature-col {
+  padding-right: 5%;
+  margin-top: 50px;
+  }
+.feature-col3 {
+  padding-right: 0;
+  margin-top: 50px;
+}
+
+/* testimonial */
+
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+}
+  .testimonial-image{
+    width: 15%;
+    border-radius: 100%;
+    margin: 30px auto 30px auto;
+  }
+ 
+
+  /* press */
+
+#press{
+    padding: 3% 15% 3%;
+    text-align: center;
+    background-color: #ef8172;
+
+  }
+  .press-logo{
+    width: 20%;
+    padding-right: 2%;
+  }
+
+  /* pricing */
+
+.btn-card{
+  width: 100%;
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+}
+.card-header{
+  color: #000;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+}
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 7% 15%;
+
+}
+
+/* Footer */
+
+#footer{
+  background-color: #ffff;;
+  text-align: center;
+  margin: 7% 15% 3%;
+}
+.contact-icons{
+  padding: 1%;
+  color: black;
+}
+.contact{
+  margin-bottom: 10px;
+}
+
+
+ @media (max-width: 1111px) {
+   #title{
+     text-align: center;
+   }
+   .title-image{
+     position: static;
+     transform: rotate(0);
+     width: 50%;
+     margin: 30px auto 30px auto;
+   }
+
+}
